@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><CustomDevicePackage>
+<CustomDevicePackage deviceType="Cisco 3700 Series" iconName="router.png" pingInterval="5">
+<SysOIDs>
+<SysOID oid=".1.3.6.1.4.1.9.1.414"/>
+<SysOID oid=".1.3.6.1.4.1.9.1.436"/>
+</SysOIDs>
+<GRAPHDETAILS>
+<Graph SaveAbsolutes="false" YAXISTEXT="Percentage" customGraph="false" description="Monitors the five-minute moving average of the CPU busy percentage" dialType="meter" displayName="CPU Usage (5 mins avg)" failureThreshold="1" graphID="309" graphName="RouterCPUUtilization" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.58.0" period="900" protocol="SNMP" sSave="true" showDial="true" timeAvg="false" unit="Percentage">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="false" YAXISTEXT=" Failures" customGraph="false" description="Monitors the Buffer Failures" displayName="Buffer Failures" failureThreshold="1" graphID="305" graphName="BufferFailures" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.46.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="false">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="false" YAXISTEXT="Percentage" customGraph="false" description="Monitors the Memory Utilization" dialType="meter" displayName="Cisco Memory Utilization" failureThreshold="1" graphID="13" graphName="CiscoMemoryUtilization" graphType="interface" isNumeric="true" numericType="1" oid="(.1.3.6.1.4.1.9.9.48.1.1.1.5.1*100)/(.1.3.6.1.4.1.9.9.48.1.1.1.5.1+.1.3.6.1.4.1.9.9.48.1.1.1.6.1)" period="900" protocol="SNMP" sSave="true" showDial="true" timeAvg="false" unit="Percentage">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="false" YAXISTEXT="No. of Packets" customGraph="false" description="Monitors the buffer create failures" displayName="Buffer Create Failures" failureThreshold="1" graphID="320" graphName="RouterBufferFailures" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.46.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="false">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="false" YAXISTEXT="(Hits)" customGraph="false" description="Monitors the Total medium buffer hits" displayName="Medium Buffer Hits" failureThreshold="1" graphID="311" graphName="RouterMedBuffHits" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.26.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="true">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="false" YAXISTEXT="(Hits)" customGraph="false" description="Monitors the Total big buffer hits" displayName="Big Buffer Hits" failureThreshold="1" graphID="312" graphName="RouterBigBuffHits" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.34.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="true">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="false" YAXISTEXT="No. of Packets" customGraph="false" description="Monitors the Total large buffer hits" displayName="Total Large Buffer Hits" failureThreshold="1" graphID="316" graphName="RouterLarBuffHits" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.42.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="true">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="false" YAXISTEXT="No. of Packets" customGraph="false" description="Monitors the huge buffer hits" displayName="Total Huge Buffer Hits" failureThreshold="1" graphID="318" graphName="RouterHugeBuffHits" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.66.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="true">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="true" YAXISTEXT="(Misses)" customGraph="false" description="Monitors the Total small buffer misses" displayName="Small Buffer Misses" failureThreshold="1" graphID="313" graphName="RouterSmallBuffMisses" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.19.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="false">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="true" YAXISTEXT="(Misses)" customGraph="false" description="Monitors the Total medium buffer misses" displayName="Medium Buffer Misses" failureThreshold="1" graphID="314" graphName="RouterMedBuffMisses" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.27.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="false">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="true" YAXISTEXT="(Misses)" customGraph="false" description="Monitors the Total big buffer misses" displayName="Big Buffer Misses" failureThreshold="1" graphID="315" graphName="RouterBigBuffMisses" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.35.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="false">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="true" YAXISTEXT="No. of Packets" customGraph="false" description="Monitors the total large buffer misses" displayName="Total Large Buffer Misses" failureThreshold="1" graphID="317" graphName="RouterLarBuffMisses" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.43.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="false">
+<OTHEROIDS/>
+</Graph>
+<Graph SaveAbsolutes="true" YAXISTEXT="No. of Packets" customGraph="false" description="Monitors the total huge buffer misses" displayName="Total Huge Buffer Misses" failureThreshold="1" graphID="319" graphName="RouterHugeBuffMisses" graphType="node" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.2.1.67.0" period="900" protocol="SNMP" sSave="true" showDial="false" timeAvg="false">
+<OTHEROIDS/>
+</Graph>
+<Graph DisplayColumn=".1.3.6.1.4.1.9.9.13.1.3.1.2" Index=".1.3.6.1.4.1.9.9.13.1.3.1.1" SaveAbsolutes="false" YAXISTEXT="Celsius" customGraph="false" description="Monitors temperature at the testpoint maintained by the environmental monitor" dialType="number" displayName="Cisco Temperature" failureThreshold="1" graphID="288" graphName="CiscoTemperature" graphType="multiplenode" isNumeric="true" numericType="1" oid=".1.3.6.1.4.1.9.9.13.1.3.1.3" period="900" protocol="SNMP" sSave="true" showDial="true" timeAvg="false" unit="Celsius">
+<OTHEROIDS/>
+</Graph>
+</GRAPHDETAILS>
+<Category name="Router"/>
+<Vendor name="Cisco"/>
+<Version version="2"/>
+</CustomDevicePackage>
+</CustomDevicePackage>
